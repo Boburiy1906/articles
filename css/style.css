@@ -94,9 +94,8 @@ img {
   background-image: url(../img/star.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position;
-  center center;
-  content: ""
+  background-position: center center;
+  content: "";
 }
 
 
