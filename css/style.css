@@ -36,8 +36,7 @@ img {
 .top-blogs {
   background: url("../img/Rectangle1.jpg") no-repeat center center;
   background-size: cover;
-  flex-grow: 1;
-  background-color: yellow;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,7 +54,6 @@ img {
 .contain-title {
   font-size: 24px;
   line-height: 29px;
-
   color: #fff;
 
 }
@@ -97,45 +95,88 @@ img {
 }
 
 .recent-blogs {
-  flex-grow: 1;
+  width: 50%;
   background-color: #fff;
   padding: 24px;
 }
 
 .recent-blogs-heading {
-font-size: 24px;
-line-height: 29px;
-color: #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222;
+
 }
+
+.line{
+  width: ;: 1px solid #999;
+  width: 492px;
+  margin: 24px;
+}
+
 .videos-blogs {
+  margin-top: 0;
+  margin-bottom: 23px;
+
 }
+
 .videos-blogs-card {
   display: flex;
 }
 
-.videos-blogs-card-img{
-border-radius: 4px;
-margin-right: 16px;
+.videos-blogs-card-img {
+  border-radius: 4px;
+  margin-right: 16px;
 }
 
-.videos-blogs-card:not(:last-child){
+.videos-blogs-card:not(:last-child) {
   margin-bottom: 10px;
 }
-.videos-blogs-text {
+.videos-blogs-text{
+align-self: center;
 }
+
 .videos-blogs-heading {
-font-size: 18px;
-line-height: 21px;
-color: #222;
+  margin-top: 0px;
+  margin-bottom: 0;
+  color: #222;
+  font-size: 18px;
+  line-height: 21px;
+}
+.videos-blogs-heading-link{
+  text-decoration: none;
 
 }
+
 .time-img-text {
+  padding-left:  25px;
   font-family: "roboto condensed", "arial", sans-serif;
   letter-spacing: 0px;
   color: #888;
- background: url(../img/time.svg) no-repeat center center;
+  background: url(../img/time.svg) no-repeat 0 center;
 }
-/* .watched-img-text {
+
+.view-img-text {
+  padding: 25px;
   font-family: "roboto condensed", "arial", sans-serif;
   letter-spacing: 0px;
-} */
+  color: #888;
+  background: url(../img/watched.svg) no-repeat 0 center;
+}
+
+/* LINK */
+.more-news-link {
+  margin-top: 24px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: "roboto condensed", "arial", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  padding: 12px 24px;
+  background-color: #1e90ff;
+  border-radius: 4px;
+}
